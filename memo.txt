@@ -1,0 +1,50 @@
+
+
+○メモ
+
+alloc.cc
+	メモリ管理周り
+arc-if.cc <- vfs.h
+	  ArchiverInterface。ZIPとかのファイル操作
+archiver.cc <- arch-if.h, sage_ptr.h
+	    ArchiverP。ZIPとかのファイル操作本体？
+array.cc <- ed.h
+	 lispのarray処理周りっぽい
+backq.cc <- ed.h
+	 lispのqueue周り処理？
+bignum.cc <- ed.h
+	 big numの処理、演算など
+binfo.cc <- ed.h
+	 buffer_infoクラス。バッファの情報（ファイル名、編集の有無、モードなど）を保持する
+buffer-bar.cc <- ed.h, mainframe.h, colors.h
+	      buffer_barクラス。バッファ下のバーに関する情報を保持？ GUI周りも担当
+Buffer.cc <- ed.h, syntaxinfo.h, filer.h, binfo.h, buffer-bar.h
+	  Bufferクラス。
+byte-stream.cc <- ed.h
+	       入出力ストリーム処理？
+bytecode.cc <- ed.h, lex.h
+	    ByteCodeクラス。lispバイトコードとその処理系を定義
+ces.cc <- ed.h
+       char encoding周りの処理
+char.cc <- ed.h
+	lispでのchar処理？
+chname.cc <- chtype.h
+	  name - Char 変換処理
+ChooseFont.cc <- ed.h
+	      フォント選択
+chunk.cc <- ed.h
+	 chunkの処理
+ColorDialog.cc <- ed.h, ldialog.h, conf.h
+	       色選択ダイアログ
+colors.cc <- ed.h, conf.h, Filer.h, mainframe.h
+	  バッファなどの色定義
+com.cc <- ed.h, oleconv.h
+       シェル連携周り？
+conf.cc <- ed.h, environ.h, print.h
+	設定ファイルの読み書き、パース
+ctl3d.cc <- sysdep.h, vfs.h
+	 Ctl3dクラス。3Dコモンコントロール初期化とか？
+
+
+
+
