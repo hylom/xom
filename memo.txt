@@ -44,6 +44,24 @@ conf.cc <- ed.h, environ.h, print.h
 	設定ファイルの読み書き、パース
 ctl3d.cc <- sysdep.h, vfs.h
 	 Ctl3dクラス。3Dコモンコントロール初期化とか？
+data.cc <- ed.h, lex.h, symtable.h, maingrame.h
+	ldataPクラス。lispのデータクラス？
+dde.cc <- ed.h, xdde.h, sage_ptr.h
+       DDE周りの処理
+dialogs.cc <- ed.h, conf.h, privctrl.h, ofn.h, thread.h, xstrlist.h
+	   バッファ選択ダイアログとか
+disp.cc <- ed.h, binfo.h, syntaxinfo.h, lucida-width.h, jisx0212-hash.h, mainframe.h, regex.h
+	キャレット処理、その他描画周り
+dll.cc <- ed.h
+       dllの関数呼び出し
+DnD.cc <- ed.h, ctxmenu.h, com.h, filer.h, buffer-bar.h
+       ドラッグ＆ドロップの処理
+doc.cc <- ed.h, except.h, mman.h
+       lispのドキュメント処理
+dockbar.cc <- ed.h, dockbar.h, mman.h
+	      ツールバー、タブバーなどの処理
+dpp.cc <- 
+       dppのmain関数
 
 
 
