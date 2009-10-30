@@ -62,6 +62,18 @@ dockbar.cc <- ed.h, dockbar.h, mman.h
 	      ツールバー、タブバーなどの処理
 dpp.cc <- 
        dppのmain関数
+edict.cc <- ed.h, except.h, mman.h
+	 lispのdict処理
+encdec.cc <- ed.h, byte-stream.h, md5.h, sha1.h
+	  base64、uuenc/dec、quote、ハッシュなどの処理
+encoding.cc <- ed.h, encoding.h, ibmext.h, utf2sjis.h
+	    内部形式へのエンコード/デコード
+environ.cc <- ed.h, conf.h, fnkey.h
+	   レジストリの読み書き、環境変数、システム情報へのアクセス
+eval.cc <- ed.h, lex.h, symtable.h
+	lispの実行周り
+except.cc <- ed.h, except.h
+	  例外処理
 
 
 
